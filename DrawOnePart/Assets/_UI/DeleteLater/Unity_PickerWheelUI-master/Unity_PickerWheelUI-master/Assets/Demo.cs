@@ -1,34 +1,35 @@
-﻿using UnityEngine ;
-using EasyUI.PickerWheelUI ;
-using UnityEngine.UI ;
+﻿using System.Collections.Generic;
+using UnityEngine;
+using EasyUI.PickerWheelUI;
+using UnityEngine.UI;
 
-public class Demo : MonoBehaviour {
-   [SerializeField] private Button uiSpinButton ;
-   [SerializeField] private Text uiSpinButtonText ;
+public class Demo : MonoBehaviour
+{
+    [SerializeField] private Button uiSpinButton;
+    [SerializeField] private Button buttonClose;
 
-   [SerializeField] private PickerWheel pickerWheel ;
+    [SerializeField] private PickerWheel pickerWheel;
+    [SerializeField] private GameObject wheelGacha;
+    private List<WheelPiece> rewards;
 
+    private void Start()
+    {
+        uiSpinButton.onClick.AddListener(() =>
+        {
+            uiSpinButton.gameObject.SetActive(false);
 
-   private void Start () {
-      uiSpinButton.onClick.AddListener (() => {
+            pickerWheel.OnSpinEnd(wheelPiece =>
+            {
+                Debug.Log(
+                    @" <b>Index:</b> " + wheelPiece.Index + "           <b>Label:</b> " + wheelPiece.Label
+                    + "\n <b>Amount:</b> " + wheelPiece.Amount + "      <b>Chance:</b> " + wheelPiece.Chance + "%"
+                );
 
-         uiSpinButton.interactable = false ;
-         uiSpinButtonText.text = "Spinning" ;
+                buttonClose.gameObject.SetActive(true);
+                buttonClose.onClick.AddListener(() => { wheelGacha.gameObject.SetActive(false); });
+            });
 
-         pickerWheel.OnSpinEnd (wheelPiece => {
-            Debug.Log (
-               @" <b>Index:</b> " + wheelPiece.Index + "           <b>Label:</b> " + wheelPiece.Label
-               + "\n <b>Amount:</b> " + wheelPiece.Amount + "      <b>Chance:</b> " + wheelPiece.Chance + "%"
-            ) ;
-
-            uiSpinButton.interactable = true ;
-            uiSpinButtonText.text = "Spin" ;
-         }) ;
-
-         pickerWheel.Spin () ;
-
-      }) ;
-
-   }
-
+            pickerWheel.Spin();
+        });
+    }
 }

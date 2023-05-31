@@ -159,7 +159,7 @@ namespace EasyUI.PickerWheelUI
                 bool isIndicatorOnTheLine = false;
 
                 wheelCircle
-                    .DORotate(targetRotation, spinDuration, RotateMode.Fast)
+                    .DORotate(targetRotation, spinDuration, RotateMode.FastBeyond360)
                     .SetEase(Ease.InOutQuart)
                     .OnUpdate(() =>
                     {
@@ -187,10 +187,6 @@ namespace EasyUI.PickerWheelUI
                         onSpinEndEvent = null;
                     });
             }
-        }
-
-        private void FixedUpdate()
-        {
         }
 
         public void OnSpinStart(UnityAction action)

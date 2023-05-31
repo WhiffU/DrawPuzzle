@@ -8,8 +8,8 @@ public class ShopManager : MonoBehaviour
 {
     public static ShopManager Instance;
 
-    public int cash;
-    public int hintNumber;
+    public int cash = 0000;
+    public int hintNumber = 0000;
 
     public Sprite[] themes;
     public Color[] visualEffects;
@@ -25,7 +25,7 @@ public class ShopManager : MonoBehaviour
 
     private void OnEnable()
     {
-        _cashText.text = ": " + cash.ToString();
-        _hintsText.text = ": " + hintNumber.ToString();
+        _cashText.text = cash.ToString();
+        _hintsText.text = hintNumber.ToString();
     }
 }
