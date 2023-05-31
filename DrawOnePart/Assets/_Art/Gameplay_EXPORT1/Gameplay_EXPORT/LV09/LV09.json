@@ -1,0 +1,20 @@
+{ "skeleton": { "images": "D:/019 Whatever/Gameplay_EXPORT/LV09/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "2", "bone": "root", "attachment": "2" },
+	{ "name": "1", "bone": "root", "attachment": "1" }
+],
+"skins": {
+	"default": {
+		"2": {
+			"2": { "x": 540.5, "y": -937, "width": 765, "height": 1000 }
+		},
+		"1": {
+			"1": { "x": 540.5, "y": -937, "width": 765, "height": 1000 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

@@ -1,0 +1,80 @@
+{ "skeleton": { "images": "D:/019 Whatever/Gameplay_EXPORT/LV02/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "shadow", "bone": "root", "attachment": "shadow" },
+	{ "name": "plug", "bone": "root", "attachment": "plug" },
+	{ "name": "cable_2", "bone": "root", "attachment": "cable_2" },
+	{ "name": "cable_1", "bone": "root", "attachment": "cable_1" },
+	{ "name": "TV", "bone": "root", "attachment": "TV" },
+	{ "name": "SCREEN1", "bone": "root", "attachment": "SCREEN1" },
+	{ "name": "SCREEN2", "bone": "root", "attachment": "SCREEN2" },
+	{ "name": "chair_B", "bone": "root", "attachment": "chair_B" },
+	{ "name": "arm_R", "bone": "root", "attachment": "arm_R" },
+	{ "name": "leg_R", "bone": "root", "attachment": "leg_R" },
+	{ "name": "leg_L", "bone": "root", "attachment": "leg_L" },
+	{ "name": "head", "bone": "root", "attachment": "head" },
+	{ "name": "face_1", "bone": "root", "attachment": "face_1" },
+	{ "name": "face_2", "bone": "root", "attachment": "face_2" },
+	{ "name": "torso", "bone": "root", "attachment": "torso" },
+	{ "name": "arm_L", "bone": "root", "attachment": "arm_L" },
+	{ "name": "chair_F", "bone": "root", "attachment": "chair_F" }
+],
+"skins": {
+	"default": {
+		"shadow": {
+			"shadow": { "x": 704, "y": -1346, "width": 474, "height": 66 }
+		},
+		"plug": {
+			"plug": { "x": 986.5, "y": -1185.5, "width": 111, "height": 109 }
+		},
+		"cable_2": {
+			"cable_2": { "x": 573.5, "y": -1076, "width": 939, "height": 724 }
+		},
+		"cable_1": {
+			"cable_1": { "x": 573.5, "y": -1071.5, "width": 939, "height": 715 }
+		},
+		"TV": {
+			"TV": { "x": 339, "y": -671.5, "width": 304, "height": 465 }
+		},
+		"SCREEN1": {
+			"SCREEN1": { "x": 369.5, "y": -643.5, "width": 181, "height": 169 }
+		},
+		"SCREEN2": {
+			"SCREEN2": { "x": 369.5, "y": -643.5, "width": 181, "height": 169 }
+		},
+		"chair_B": {
+			"chair_B": { "x": 749, "y": -1072, "width": 478, "height": 564 }
+		},
+		"arm_R": {
+			"arm_R": { "x": 665, "y": -957, "width": 348, "height": 126 }
+		},
+		"leg_R": {
+			"leg_R": { "x": 620.5, "y": -1126.5, "width": 437, "height": 269 }
+		},
+		"leg_L": {
+			"leg_L": { "x": 609, "y": -1154, "width": 456, "height": 250 }
+		},
+		"head": {
+			"head": { "x": 767, "y": -792, "width": 240, "height": 268 }
+		},
+		"face_1": {
+			"face_1": { "x": 733.5, "y": -796, "width": 149, "height": 136 }
+		},
+		"face_2": {
+			"face_2": { "x": 732, "y": -799, "width": 154, "height": 152 }
+		},
+		"torso": {
+			"torso": { "x": 761, "y": -1022, "width": 256, "height": 288 }
+		},
+		"arm_L": {
+			"arm_L": { "x": 722, "y": -987.5, "width": 298, "height": 157 }
+		},
+		"chair_F": {
+			"chair_F": { "x": 793.5, "y": -1072.5, "width": 295, "height": 143 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

@@ -1,0 +1,6 @@
+LV09.png
+size:772,1004
+filter:Linear,Linear
+pma:true
+2
+bounds:2,2,765,1000

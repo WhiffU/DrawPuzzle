@@ -1,0 +1,10 @@
+icon_check.png
+size:248,188
+filter:Linear,Linear
+pma:true
+icon_bling
+bounds:187,127,57,56
+rotate:90
+icon_check
+bounds:2,2,182,183
+rotate:90

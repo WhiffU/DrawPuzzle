@@ -1,0 +1,76 @@
+{ "skeleton": { "images": "D:/019 Whatever/Gameplay_EXPORT/LV10/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "arm_L", "bone": "root", "attachment": "arm_L" },
+	{ "name": "torso", "bone": "root", "attachment": "torso" },
+	{ "name": "mushroom1", "bone": "root", "attachment": "mushroom1" },
+	{ "name": "mushroom2", "bone": "root", "attachment": "mushroom2" },
+	{ "name": "carror1", "bone": "root", "attachment": "carror1" },
+	{ "name": "carrot2", "bone": "root", "attachment": "carrot2" },
+	{ "name": "carrot3", "bone": "root", "attachment": "carrot3" },
+	{ "name": "broccoli1", "bone": "root", "attachment": "broccoli1" },
+	{ "name": "broccoli2", "bone": "root", "attachment": "broccoli2" },
+	{ "name": "upperarm_R", "bone": "root", "attachment": "upperarm_R" },
+	{ "name": "forearm_R_2", "bone": "root", "attachment": "forearm_R_2" },
+	{ "name": "forearm_R_1", "bone": "root", "attachment": "forearm_R_1" },
+	{ "name": "head", "bone": "root", "attachment": "head" },
+	{ "name": "face_2", "bone": "root", "attachment": "face_2" },
+	{ "name": "face_1", "bone": "root", "attachment": "face_1" },
+	{ "name": "stove", "bone": "root", "attachment": "stove" }
+],
+"skins": {
+	"default": {
+		"arm_L": {
+			"arm_L": { "x": 498.5, "y": -1039, "width": 255, "height": 378 }
+		},
+		"torso": {
+			"torso": { "x": 384.5, "y": -1115.5, "width": 365, "height": 689 }
+		},
+		"mushroom1": {
+			"mushroom1": { "x": 731.5, "y": -814, "width": 111, "height": 108 }
+		},
+		"mushroom2": {
+			"mushroom2": { "x": 934.5, "y": -865.5, "width": 71, "height": 67 }
+		},
+		"carror1": {
+			"carror1": { "x": 719.5, "y": -891.5, "width": 85, "height": 77 }
+		},
+		"carrot2": {
+			"carrot2": { "x": 826, "y": -753.5, "width": 68, "height": 75 }
+		},
+		"carrot3": {
+			"carrot3": { "x": 966.5, "y": -833, "width": 77, "height": 72 }
+		},
+		"broccoli1": {
+			"broccoli1": { "x": 823, "y": -891.5, "width": 102, "height": 99 }
+		},
+		"broccoli2": {
+			"broccoli2": { "x": 944, "y": -752, "width": 74, "height": 72 }
+		},
+		"upperarm_R": {
+			"upperarm_R": { "x": 203, "y": -1012, "width": 184, "height": 308 }
+		},
+		"forearm_R_2": {
+			"forearm_R_2": { "x": 560, "y": -1065, "width": 874, "height": 232 }
+		},
+		"forearm_R_1": {
+			"forearm_R_1": { "x": 421, "y": -1067.5, "width": 596, "height": 227 }
+		},
+		"head": {
+			"head": { "x": 317, "y": -609.5, "width": 330, "height": 473 }
+		},
+		"face_2": {
+			"face_2": { "x": 375, "y": -731.5, "width": 228, "height": 257 }
+		},
+		"face_1": {
+			"face_1": { "x": 376, "y": -726.5, "width": 226, "height": 235 }
+		},
+		"stove": {
+			"stove": { "x": 798.5, "y": -1228.5, "width": 441, "height": 387 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

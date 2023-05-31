@@ -1,0 +1,52 @@
+{ "skeleton": { "images": "D:/019 Whatever/Gameplay_EXPORT/LV07/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "branch_2_3", "bone": "root", "attachment": "branch_2_3" },
+	{ "name": "branch_2_2", "bone": "root", "attachment": "branch_2_2" },
+	{ "name": "ball_2_BACK", "bone": "root", "attachment": "ball_2_BACK" },
+	{ "name": "branch_2_1", "bone": "root", "attachment": "branch_2_1" },
+	{ "name": "ball_2", "bone": "root", "attachment": "ball_2" },
+	{ "name": "patricles", "bone": "root", "attachment": "patricles" },
+	{ "name": "branch_3", "bone": "root", "attachment": "branch_3" },
+	{ "name": "branch_2", "bone": "root", "attachment": "branch_2" },
+	{ "name": "branch_1", "bone": "root", "attachment": "branch_1" },
+	{ "name": "ball_1", "bone": "root", "attachment": "ball_1" }
+],
+"skins": {
+	"default": {
+		"branch_2_3": {
+			"branch_2_3": { "x": 533, "y": -732, "width": 394, "height": 364 }
+		},
+		"branch_2_2": {
+			"branch_2_2": { "x": 334, "y": -855.5, "width": 438, "height": 543 }
+		},
+		"ball_2_BACK": {
+			"ball_2_BACK": { "x": 679, "y": -846.5, "width": 22, "height": 249 }
+		},
+		"branch_2_1": {
+			"branch_2_1": { "x": 581.5, "y": -742.5, "width": 783, "height": 279 }
+		},
+		"ball_2": {
+			"ball_2": { "x": 672.5, "y": -977, "width": 227, "height": 510 }
+		},
+		"patricles": {
+			"patricles": { "x": 558, "y": -919.5, "width": 430, "height": 561 }
+		},
+		"branch_3": {
+			"branch_3": { "x": 533, "y": -732, "width": 394, "height": 364 }
+		},
+		"branch_2": {
+			"branch_2": { "x": 334, "y": -855.5, "width": 438, "height": 543 }
+		},
+		"branch_1": {
+			"branch_1": { "x": 581.5, "y": -742.5, "width": 783, "height": 279 }
+		},
+		"ball_1": {
+			"ball_1": { "x": 672.5, "y": -1095, "width": 227, "height": 274 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

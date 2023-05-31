@@ -1,0 +1,28 @@
+LV04.png
+size:1156,1116
+filter:Linear,Linear
+pma:true
+Layer 1 copy
+bounds:618,488,27,27
+offsets:1,1,29,29
+Layer 1
+bounds:618,488,27,27
+offsets:1,1,29,29
+arm_L2
+bounds:809,36,479,344
+rotate:90
+arm_R2
+bounds:2,2,805,454
+head_2
+bounds:2,458,655,571
+offsets:1,1,657,573
+rotate:90
+smoke1
+bounds:993,986,153,127
+offsets:1,1,155,129
+smoke2
+bounds:575,472,43,41
+offsets:1,1,45,43
+rotate:90
+torso
+bounds:575,517,416,596

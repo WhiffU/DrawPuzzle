@@ -1,0 +1,48 @@
+{ "skeleton": { "images": "D:/019 Whatever/Gameplay_EXPORT/LV01/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "arm_R", "bone": "root", "attachment": "arm_R" },
+	{ "name": "arm_L", "bone": "root", "attachment": "arm_L" },
+	{ "name": "torso", "bone": "root", "attachment": "torso" },
+	{ "name": "leg_R_02", "bone": "root", "attachment": "leg_R_02" },
+	{ "name": "leg_R_01", "bone": "root", "attachment": "leg_R_01" },
+	{ "name": "leg_L", "bone": "root", "attachment": "leg_L" },
+	{ "name": "head", "bone": "root", "attachment": "head" },
+	{ "name": "face2", "bone": "root", "attachment": "face2" },
+	{ "name": "face1", "bone": "root", "attachment": "face1" }
+],
+"skins": {
+	"default": {
+		"arm_R": {
+			"arm_R": { "x": 328.5, "y": -996, "width": 339, "height": 356 }
+		},
+		"arm_L": {
+			"arm_L": { "x": 751.5, "y": -996, "width": 339, "height": 356 }
+		},
+		"torso": {
+			"torso": { "x": 540, "y": -984.5, "width": 324, "height": 389 }
+		},
+		"leg_R_02": {
+			"leg_R_02": { "x": 369.5, "y": -1279, "width": 291, "height": 382 }
+		},
+		"leg_R_01": {
+			"leg_R_01": { "x": 432, "y": -1144.5, "width": 182, "height": 139 }
+		},
+		"leg_L": {
+			"leg_L": { "x": 710.5, "y": -1279, "width": 291, "height": 382 }
+		},
+		"head": {
+			"head": { "x": 540, "y": -621, "width": 540, "height": 490 }
+		},
+		"face2": {
+			"face2": { "x": 535.5, "y": -687, "width": 343, "height": 292 }
+		},
+		"face1": {
+			"face1": { "x": 540, "y": -708, "width": 354, "height": 272 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

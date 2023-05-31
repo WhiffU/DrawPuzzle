@@ -1,0 +1,52 @@
+{ "skeleton": { "images": "D:/019 Whatever/Gameplay_EXPORT/LV04/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "arm_L1", "bone": "root", "attachment": "arm_L1" },
+	{ "name": "arm_L2", "bone": "root", "attachment": "arm_L2" },
+	{ "name": "torso", "bone": "root", "attachment": "torso" },
+	{ "name": "arm_R1", "bone": "root", "attachment": "arm_R1" },
+	{ "name": "arm_R2", "bone": "root", "attachment": "arm_R2" },
+	{ "name": "head_1", "bone": "root", "attachment": "head_1" },
+	{ "name": "smoke1", "bone": "root", "attachment": "smoke1" },
+	{ "name": "smoke2", "bone": "root", "attachment": "smoke2" },
+	{ "name": "head_2", "bone": "root", "attachment": "head_2" },
+	{ "name": "irises_2", "bone": "root", "attachment": "irises_2" }
+],
+"skins": {
+	"default": {
+		"arm_L1": {
+			"arm_L1": { "x": 691, "y": -1250, "width": 596, "height": 344 }
+		},
+		"arm_L2": {
+			"arm_L2": { "x": 632.5, "y": -1250, "width": 479, "height": 344 }
+		},
+		"torso": {
+			"torso": { "x": 313, "y": -1224, "width": 416, "height": 596 }
+		},
+		"arm_R1": {
+			"arm_R1": { "x": 411, "y": -1212.5, "width": 514, "height": 395 }
+		},
+		"arm_R2": {
+			"arm_R2": { "x": 572.5, "y": -1236, "width": 805, "height": 454 }
+		},
+		"head_1": {
+			"head_1": { "x": 572.5, "y": -786.5, "width": 661, "height": 559 }
+		},
+		"smoke1": {
+			"smoke1": { "x": 167.5, "y": -638.5, "width": 155, "height": 129 }
+		},
+		"smoke2": {
+			"smoke2": { "x": 176.5, "y": -738.5, "width": 45, "height": 43 }
+		},
+		"head_2": {
+			"head_2": { "x": 478.5, "y": -779.5, "width": 657, "height": 573 }
+		},
+		"irises_2": {
+			"irises_2": { "x": 580, "y": -823.5, "width": 280, "height": 75 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

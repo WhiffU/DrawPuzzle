@@ -1,0 +1,80 @@
+{ "skeleton": { "images": "D:/019 Whatever/Gameplay_EXPORT/LV03/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "bench_2", "bone": "root", "attachment": "bench_2" },
+	{ "name": "bench_1", "bone": "root", "attachment": "bench_1" },
+	{ "name": "thigh_R", "bone": "root", "attachment": "thigh_R" },
+	{ "name": "calf_R", "bone": "root", "attachment": "calf_R" },
+	{ "name": "forearm_R", "bone": "root", "attachment": "forearm_R" },
+	{ "name": "upperarm_R", "bone": "root", "attachment": "upperarm_R" },
+	{ "name": "hand_R", "bone": "root", "attachment": "hand_R" },
+	{ "name": "head", "bone": "root", "attachment": "head" },
+	{ "name": "face_1", "bone": "root", "attachment": "face_1" },
+	{ "name": "face_2", "bone": "root", "attachment": "face_2" },
+	{ "name": "torso", "bone": "root", "attachment": "torso" },
+	{ "name": "forearm_L", "bone": "root", "attachment": "forearm_L" },
+	{ "name": "upperarm_L", "bone": "root", "attachment": "upperarm_L" },
+	{ "name": "hand_L", "bone": "root", "attachment": "hand_L" },
+	{ "name": "thigh_L", "bone": "root", "attachment": "thigh_L" },
+	{ "name": "calf_L", "bone": "root", "attachment": "calf_L" },
+	{ "name": "ball", "bone": "root", "attachment": "ball" }
+],
+"skins": {
+	"default": {
+		"bench_2": {
+			"bench_2": { "x": 533, "y": -1468.5, "width": 774, "height": 491 }
+		},
+		"bench_1": {
+			"bench_1": { "x": 533, "y": -1548, "width": 774, "height": 332 }
+		},
+		"thigh_R": {
+			"thigh_R": { "x": 637, "y": -602.5, "width": 126, "height": 357 }
+		},
+		"calf_R": {
+			"calf_R": { "x": 505.5, "y": -535.5, "width": 269, "height": 221 }
+		},
+		"forearm_R": {
+			"forearm_R": { "x": 572, "y": -1117.5, "width": 52, "height": 167 }
+		},
+		"upperarm_R": {
+			"upperarm_R": { "x": 580, "y": -988, "width": 62, "height": 162 }
+		},
+		"hand_R": {
+			"hand_R": { "x": 557.5, "y": -1210.5, "width": 77, "height": 55 }
+		},
+		"head": {
+			"head": { "x": 480, "y": -900, "width": 210, "height": 200 }
+		},
+		"face_1": {
+			"face_1": { "x": 454.5, "y": -948, "width": 147, "height": 116 }
+		},
+		"face_2": {
+			"face_2": { "x": 447.5, "y": -949, "width": 137, "height": 114 }
+		},
+		"torso": {
+			"torso": { "x": 664.5, "y": -851.5, "width": 201, "height": 307 }
+		},
+		"forearm_L": {
+			"forearm_L": { "x": 588, "y": -1134.5, "width": 62, "height": 197 }
+		},
+		"upperarm_L": {
+			"upperarm_L": { "x": 598, "y": -1008.5, "width": 74, "height": 231 }
+		},
+		"hand_L": {
+			"hand_L": { "x": 571, "y": -1245, "width": 92, "height": 64 }
+		},
+		"thigh_L": {
+			"thigh_L": { "x": 508, "y": -745, "width": 300, "height": 112 }
+		},
+		"calf_L": {
+			"calf_L": { "x": 366, "y": -909.5, "width": 106, "height": 351 }
+		},
+		"ball": {
+			"ball": { "x": 446, "y": -670.5, "width": 118, "height": 119 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

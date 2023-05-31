@@ -1,0 +1,48 @@
+{ "skeleton": { "images": "D:/019 Whatever/Gameplay_EXPORT/LV05/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "punchingbag_2", "bone": "root", "attachment": "punchingbag_2" },
+	{ "name": "punchingbag_1", "bone": "root", "attachment": "punchingbag_1" },
+	{ "name": "forearm_L", "bone": "root", "attachment": "forearm_L" },
+	{ "name": "upperarm_L", "bone": "root", "attachment": "upperarm_L" },
+	{ "name": "torso", "bone": "root", "attachment": "torso" },
+	{ "name": "upperarm_R", "bone": "root", "attachment": "upperarm_R" },
+	{ "name": "forearm_R", "bone": "root", "attachment": "forearm_R" },
+	{ "name": "head_2", "bone": "root", "attachment": "head_2" },
+	{ "name": "head_1", "bone": "root", "attachment": "head_1" }
+],
+"skins": {
+	"default": {
+		"punchingbag_2": {
+			"punchingbag_2": { "x": 830.5, "y": -842, "width": 331, "height": 986 }
+		},
+		"punchingbag_1": {
+			"punchingbag_1": { "x": 841, "y": -497, "width": 270, "height": 296 }
+		},
+		"forearm_L": {
+			"forearm_L": { "x": 571.5, "y": -1044.5, "width": 287, "height": 227 }
+		},
+		"upperarm_L": {
+			"upperarm_L": { "x": 409, "y": -1045, "width": 180, "height": 222 }
+		},
+		"torso": {
+			"torso": { "x": 277.5, "y": -1110, "width": 233, "height": 422 }
+		},
+		"upperarm_R": {
+			"upperarm_R": { "x": 262.5, "y": -1031.5, "width": 179, "height": 223 }
+		},
+		"forearm_R": {
+			"forearm_R": { "x": 428, "y": -1047.5, "width": 286, "height": 237 }
+		},
+		"head_2": {
+			"head_2": { "x": 322.5, "y": -814.5, "width": 359, "height": 303 }
+		},
+		"head_1": {
+			"head_1": { "x": 322.5, "y": -811.5, "width": 359, "height": 297 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

@@ -1,0 +1,17 @@
+LV06.png
+size:776,592
+filter:Linear,Linear
+pma:true
+coffeemachine2
+bounds:2,2,586,702
+offsets:1,1,588,704
+rotate:90
+smoke_01
+bounds:706,516,65,72
+offsets:1,1,67,74
+smoke_02
+bounds:706,430,34,35
+offsets:1,1,36,37
+smoke_03
+bounds:706,467,57,47
+offsets:1,1,59,49
